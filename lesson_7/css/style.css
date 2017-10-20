@@ -1,0 +1,81 @@
+h1 {
+	text-align: center;
+	margin: 90px 0;
+	font-size: 24px;
+	font-family: "Tahoma", sans serif;
+	line-height: 1.5;
+	color: #333;
+}
+span {
+	text-transform: uppercase;
+	font-weight: 900;
+}
+.main {
+	text-align: center;
+}
+.video, form {
+	display: inline-block;
+	vertical-align: top;
+}
+.video {
+	margin-right: 32px;
+}
+form {
+	border: 5px solid #0048D6;
+	width: 350px;
+	height: 311px;
+	font-size: 18px;
+}
+p {
+	margin: 32px 0;
+	font-size: 20px;
+	font-weight: 800;
+	font-family: "Tahoma", sans serif;
+	color: #333;
+}
+input {
+	width: 295px;
+	height: 50px;
+	margin-bottom: 12px;
+}
+input[placeholder] {
+	padding-left: 20px;
+}
+button {
+	color: #fff;
+	border: none;
+	background-color: #2A54DA;
+	height: 65px;
+	width: 295px;
+}
+h2 {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 24px;
+	text-align: center;
+	font-family: "Tahoma", sans serif;
+	color: #333;
+	margin: 150px 0 40px 0;
+}
+.feature {
+	text-align: center;
+}
+.col {
+	display: inline-block;
+	text-align: center;
+	margin: 30px 50px 0 50px;
+}
+.col p {
+	font-size: 16px;
+	margin-top: 20px;
+}
+.second_btn {
+	display: block;
+	margin: 40px auto -60px auto;
+}
+.col_photos {
+	text-align: center;
+}
+.col_photos img {
+	margin: 16px 12px;
+}
