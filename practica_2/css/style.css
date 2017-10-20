@@ -1,0 +1,143 @@
+/*Fonts*/
+@font-face {
+  font-family: '../fonts/ProximaNova_reg';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: '../fonts/ProximaNova_bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+/*Colors*/
+/* Basic setting */
+html {
+  font-size: 10px;
+}
+.button {
+  background-color: #ffb400;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+}
+/* Typography*/
+section {
+  padding: 10rem 0;
+}
+/* Main */
+.main {
+  vertical-align: middle;
+  font-family: 'ProximaNova_bold', sans-serif;
+  background-image: url(../img/main_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header {
+  padding-top: 1.5rem;
+  height: 7rem;
+}
+a {
+  color: #14111a;
+  font-weight: 700;
+  font-size: 2rem;
+  display: inline-block;
+  height: 7rem;
+  line-height: 7rem;
+  float: right;
+}
+.header-btn {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  font-weight: 700;
+}
+h1 {
+  margin-top: 10rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+span {
+  display: block;
+}
+span.ideal {
+  font-size: 2.4rem;
+  font-family: 'ProximaNova_reg', sans-serif;
+  font-weight: 400;
+  margin-top: 5.3rem;
+  margin-bottom: 6.3rem;
+}
+span.stoim {
+  font-family: 'ProximaNova_reg', sans-serif;
+  width: 236px;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  background-color: #00C939;
+  padding: 1.7rem 4.1rem 1.2rem 4.1rem;
+  color: #ffffff;
+  margin-bottom: 3.7rem;
+}
+span.stoim b {
+  font-size: 3rem;
+}
+span.fact {
+  font-family: 'ProximaNova_bold', sans-serif;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+}
+form {
+  font-family: 'ProximaNova_reg', sans-serif;
+  padding: 4.7rem 5.1rem;
+  margin-top: 10rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+form .form .header_form {
+  font-size: 1.8rem;
+}
+form .form span {
+  font-family: 'ProximaNova_reg', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+form .form span b {
+  font-weight: 700;
+}
+form .form .lable {
+  margin-top: 2.7rem;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  padding: 0.5rem;
+  background-color: #ffffff;
+}
+form .form .podrob {
+  margin-top: 1.2rem;
+}
+form input {
+  margin-top: 2.7rem;
+  width: 100%;
+  display: inline-block;
+  height: 52px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+form button {
+  margin-top: 2.3rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+  width: 257px;
+  height: 65px;
+}
+.viesd {
+  margin: 3.6rem 0 3rem 3rem;
+  font-size: 1.2rem;
+}

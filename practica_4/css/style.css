@@ -1,0 +1,335 @@
+/*Fonts*/
+@font-face {
+  font-family: 'ProximaNova_reg';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova_bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+/*Colors*/
+/* Basic setting */
+html {
+  font-size: 10px;
+}
+button:focus,
+input:focus,
+a:focus {
+  outline: none;
+}
+.button {
+  background-color: #ffb400;
+  border-radius: 0.8rem;
+  border: none;
+  color: #ffffff;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #ffc333;
+}
+h1,
+h2,
+h3 {
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+p {
+  font-family: 'ProximaNova_reg', sans-serif;
+}
+/* Main */
+.main {
+  vertical-align: middle;
+  font-family: 'ProximaNova_bold', sans-serif;
+  background-image: url(../img/main_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header {
+  padding-top: 1.5rem;
+  height: 7rem;
+}
+a {
+  color: #14111a;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 2rem;
+  display: inline-block;
+  height: 7rem;
+  line-height: 7rem;
+  float: right;
+}
+a:hover {
+  text-decoration: none;
+}
+.header-btn {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 0.4rem;
+  padding: 1rem 3rem;
+  font-weight: 700;
+}
+h1 {
+  color: #14111a;
+  margin-top: 10rem;
+  font-weight: 700;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+span {
+  color: #14111a;
+  display: block;
+}
+span.ideal {
+  font-size: 2.4rem;
+  font-family: 'ProximaNova_reg', sans-serif;
+  margin-top: 5.3rem;
+  margin-bottom: 6.3rem;
+}
+span.stoim {
+  display: table;
+  font-family: 'ProximaNova_reg', sans-serif;
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+  background-color: #00C939;
+  color: #ffffff;
+  margin-bottom: 3.7rem;
+  padding: 3rem 4rem;
+}
+span.stoim b {
+  font-size: 3rem;
+}
+span.fact {
+  font-family: 'ProximaNova_bold', sans-serif;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+}
+form {
+  font-family: 'ProximaNova_reg', sans-serif;
+  padding: 4.7rem 5.1rem;
+  margin-top: 10rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+form .form .header_form {
+  font-size: 1.8rem;
+}
+form .form span {
+  font-family: 'ProximaNova_reg', sans-serif;
+  font-size: 1.2rem;
+}
+form .form span b {
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+form .form .lable {
+  margin-top: 2.7rem;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  padding: 0.5rem;
+  background-color: #ffffff;
+}
+form .form .podrob {
+  margin-top: 1.2rem;
+}
+form input {
+  text-align: center;
+  margin-top: 2.7rem;
+  width: 100%;
+  display: inline-block;
+  height: 5.2rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+}
+form button {
+  margin-top: 2.3rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 1.6rem;
+  width: 25.7rem;
+  height: 6.5rem;
+}
+.viesd {
+  margin: 3.6rem 0 3rem 3rem;
+  font-size: 1.2rem;
+}
+/*Features*/
+.features h2 {
+  margin: 9.9rem 0 13rem;
+  text-align: center;
+  font-size: 3.6rem;
+}
+.features-slider {
+  text-align: center;
+}
+.features-block h3 {
+  margin: 6.4rem 0 3.5rem;
+  font-size: 2rem;
+}
+.features-block p {
+  font-size: 1.6rem;
+  padding: 0 10%;
+}
+.features-img img {
+  display: block;
+  margin: 0 auto;
+}
+.features .slick-active {
+  outline: none;
+}
+.features .arrow {
+  top: 50%;
+  -webkit-transform: scaleY(-50%);
+          transform: scaleY(-50%);
+  z-index: 99;
+  position: absolute;
+  background-size: 70%;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+}
+.features .prev {
+  left: 0;
+  background: url(../img/left_arrow.svg) center no-repeat;
+  background-size: 70%;
+}
+.features .next {
+  right: 0;
+  background: url(../img/right_arrow.svg) center no-repeat;
+  background-size: 70%;
+}
+/*Media*/
+@media (max-width: 1200px) {
+  .header-btn {
+    margin-top: 0.1rem;
+  }
+}
+@media (max-width: 992px) {
+  .main {
+    background-position: top right;
+  }
+  .stoim {
+    margin: 3.7rem auto;
+  }
+  h1,
+  .ideal,
+  .fact,
+  .viesd {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+  .main {
+    background-position: top 73px left;
+  }
+  .logo {
+    position: relative;
+    margin-top: 10rem;
+    text-align: center;
+  }
+  .phone {
+    position: absolute;
+  }
+  .phone a {
+    margin-right: 25%;
+  }
+  .header-btn {
+    position: absolute;
+  }
+  .header-btn .button {
+    font-size: 1.2rem;
+    right: -75%;
+  }
+  picture img {
+    width: 20%;
+    height: 20%;
+  }
+}
+@media (max-width: 430px) {
+  html {
+    font-size: 5px;
+  }
+  .main {
+    background-position: top 50px left;
+  }
+  .phone a {
+    font-size: 14px;
+  }
+  .header-btn .wrap .wrap-block .button {
+    margin-top: 0px;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 365px) {
+  html {
+    font-size: 3px;
+  }
+  .main {
+    background-position: top 30px left;
+  }
+  img {
+    width: 40%;
+    height: 40%;
+  }
+  .header-btn .wrap .wrap-block .button {
+    font-size: 2rem;
+  }
+  .phone {
+    float: left;
+  }
+  .phone a {
+    font-size: 3rem;
+  }
+  h1 {
+    margin-top: 5rem;
+  }
+}
+@media (max-width: 248px) {
+  html {
+    font-size: 2px;
+  }
+  .main {
+    background-position: top 20px left;
+  }
+  .header-btn {
+    position: absolute;
+  }
+  .header-btn .button {
+    font-size: 1.2rem;
+    right: -85%;
+  }
+  .phone {
+    padding: 0;
+    float: left;
+  }
+  .phone a {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 248px) {
+  .phone {
+    padding: 0;
+    float: left;
+  }
+  .phone a {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 132px) {
+  html {
+    font-size: 1px;
+  }
+  .main {
+    background-position: top 10px left;
+  }
+}

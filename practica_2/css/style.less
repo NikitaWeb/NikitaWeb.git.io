@@ -1,0 +1,171 @@
+/*Fonts*/
+@font-face {
+	font-family: '../fonts/ProximaNova_reg';
+	src: url('../fonts/ProximaNova-Regular.eot');
+	src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+		url('../fonts/ProximaNova-Regular.woff') format('woff'),
+		url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
+		url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: '../fonts/ProximaNova_bold';
+	src: url('../fonts/ProximaNova-Bold.eot');
+	src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+		url('../fonts/ProximaNova-Bold.woff') format('woff'),
+		url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+		url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+/*Colors*/
+@btn: #FFB400;
+@icon: #00B300;
+@icon-dark: #008D00;
+@text: #14111A;
+@danger: #FF0000;
+@bg-light: #F5F5F5;
+@light: #fff;
+
+/* Basic setting */
+html {
+	font-size: 10px;
+}
+.button {
+	background-color: @btn;
+	border-radius: 8px;
+	border: none;
+	color: @light;
+}
+.bold() {
+	font-family: 'ProximaNova_bold', sans-serif;
+}
+.reg() {
+	font-family: 'ProximaNova_reg', sans-serif;
+}
+
+/* Typography*/
+section {
+	padding: 10rem 0;
+}
+
+/* Main */
+.main {
+	vertical-align: middle;
+	.bold();
+	background-image: url(../img/main_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.header {
+	padding-top: 1.5rem;
+	height: 7rem;
+}
+a {
+	color: @text;
+	font-weight: 700;
+	font-size: 2rem;
+	display: inline-block;
+	height: 7rem;
+	line-height: 7rem;
+	float: right;
+}
+.header-btn {
+	font-size: 1rem;
+	text-transform: uppercase;
+	margin-top: 1rem;
+	padding: 1rem 3rem;
+	font-weight: 700;
+}
+h1 {
+	margin-top: 10rem;
+	.bold();
+	font-weight: 700;
+	font-size: 4rem;
+	text-transform: uppercase;
+}
+span{
+	display: block;
+	&.ideal {
+		font-size: 2.4rem;
+		.reg();
+		font-weight: 400;
+		margin-top: 5.3rem;
+		margin-bottom: 6.3rem;
+	}
+	&.stoim {
+		.reg();
+		width: 236px;
+		text-align: center;
+		font-size: 1.8rem;
+		font-weight: 600;
+		background-color: #00C939;
+		padding: 1.7rem 4.1rem 1.2rem 4.1rem;
+		color: @light;
+		margin-bottom: 3.7rem;
+		& b {
+			font-size: 3rem;
+		}
+	}
+	&.fact {
+		.bold();
+		text-transform: uppercase;
+		font-size: 2.2rem;
+	}
+}
+
+form {
+	.reg();
+	padding: 4.7rem 5.1rem;
+	margin-top: 10rem;
+	background-color: @light;
+	text-align: center;
+	& .form {
+		& .header_form {
+			font-size: 1.8rem;
+		}
+		& span {
+			.reg();
+			font-size: 1.2rem;
+			font-weight: 400;
+			& b {
+				font-weight: 700;
+			}
+		}
+		& .lable {
+				margin-top: 2.7rem;
+				position: absolute;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+				padding: 0.5rem;
+				background-color: @light;
+		}
+		& .podrob {
+				margin-top: 1.2rem;
+			}
+	}
+	& input {
+		margin-top: 2.7rem;
+		width: 100%;
+		display: inline-block;
+		height: 52px;
+		border: 1px solid #ddd;
+		border-radius: 5px;
+	}
+	& button {
+		margin-top: 2.3rem;
+		font-weight: 600;
+		font-size: 1.6rem;
+		width: 257px;
+		height: 65px;
+	}
+}
+.viesd {
+	margin: 3.6rem 0 3rem 3rem;
+	font-size: 1.2rem;
+}
