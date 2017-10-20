@@ -1,0 +1,39 @@
+/*Colors*/
+/* Basic setting */
+html {
+  font-size: 10px;
+}
+.button {
+  background-color: #ffb400;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+}
+/* Typography*/
+section {
+  padding: 10rem 0;
+}
+/* Main */
+main {
+  padding: 3rem 0;
+  vertical-align: middle;
+}
+.header {
+  height: 7rem;
+}
+a {
+  color: #14111a;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: inline-block;
+  height: 7rem;
+  line-height: 7rem;
+  float: right;
+}
+button {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+}

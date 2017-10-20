@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+.bg {
+  display: inline-block;
+  width: 570px;
+  height: 570px;
+  background: url(../img/bg.png) no-repeat fixed;
+  background-size: cover;
+}
+.form {
+  display: inline-block;
+  background-color: #fff;
+  width: 318px;
+  height: 368px;
+  text-align: center;
+  border: 1px solid #CFDEDE;
+  margin-top: 100px;
+  margin-right: -4px;
+}
+.title {
+  display: inline-block;
+  margin-left: -130px;
+  margin-top: -4px;
+  height: 25px;
+  width: 149px;
+  background-color: #01B3B3;
+  position: absolute;
+  -webkit-box-shadow: 1px 1px 0 #DFE1E1;
+  -moz-box-shadow: 1px 1px 0 #DFE1E1;
+  box-shadow: 1px 1px 0 #DFE1E1;
+}
+.title span {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  margin: 6px 0 0 -65px;
+}
+.input span {
+  color: #01B3B3;
+}
+.input p {
+  font-size: 12px;
+  font-weight: 600;
+}
+.input input {
+  font-size: 12px;
+  font-style: italic;
+  border: 1px solid #CFDEDE;
+  background: url(../img/bg.png) no-repeat fixed;
+  background-size: cover;
+  height: 28px;
+  width: 247px;
+  margin-top: -1px;
+  padding-left: 13px;
+}
+.email p{
+  margin-top: 53px;
+  margin-left: -215px;
+}
+.password p {
+  margin-top: 16px;
+  margin-left: -143px;
+}
+.password input {
+  margin-top: 1px;
+}
+.password2 p {
+  margin-top: 17px;
+  margin-left: -144px;
+}
+.password2 input {
+  margin-top: 0;
+}
+button {
+  margin-top: 34px;
+  height: 45px;
+  width: 260px;
+  font-weight: 600;
+  border-top: 1px solid #41D4D4 !important;
+  border-right: 1px solid #07B6B6;
+  border-bottom: 1px solid #0AA2A2;
+  border-left: 1px solid #07B5B5;
+  border-radius: 3px;
+  background: -webkit-linear-gradient(top, #01C5C5, #01B1B1);
+  -webkit-box-shadow: 1px 1px 0 #DFE1E1;
+  -moz-box-shadow: 1px 1px 0 #DFE1E1;
+  box-shadow: 1px 1px 0 #DFE1E1;
+}
+button a {
+  margin-bottom: 3px;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+}

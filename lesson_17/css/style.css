@@ -1,0 +1,42 @@
+.folder {
+  top: 50%;
+  text-align: center;
+}
+.popup {
+  z-index: 9;
+  display: none;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+.popup-form {
+  position: relative;
+  background-color: #fff;
+  margin: 15% 40%;
+}
+.popup-close {
+  position: absolute;
+  float: right;
+  margin-left: 25px;
+  border: none;
+  color: #fff;
+  background: none;
+  right: -45px;
+  font-size: 20px;
+}
+span {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+button {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+
