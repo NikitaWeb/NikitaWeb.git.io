@@ -36,3 +36,4 @@
 * [Практика №7](https://nikitaweb.github.io/practica_7/ "Практика №7")
 * [Практика №8](https://nikitaweb.github.io/practica_8/ "Практика №8")
 * [Практика №9](https://nikitaweb.github.io/practica_9/ "Практика №9")
+* [Практика №10](https://nikitaweb.github.io/practica_10/ "Практика №10")
